@@ -1,0 +1,31 @@
+<beans
+
+        xmlns="http://www.springframework.org/schema/beans"
+
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!-- Department Bean -->
+    <bean id="dept" class="com.example.SpringD2_A18.Department">
+        <property name="deptName" value="IT"/>
+    </bean>
+
+    <!-- Employee Bean -->
+    <bean id="emp"
+          class="com.example.SpringD2_A18.Employee"
+          scope="prototype"
+          init-method="init"
+          destroy-method="destroy">
+
+        <!-- Constructor Injection -->
+        <constructor-arg value="101"/>
+        <constructor-arg value="Rahul"/>
+
+        <!-- Setter Injection -->
+        <property name="department" ref="dept"/>
+    </bean>
+</beans>
