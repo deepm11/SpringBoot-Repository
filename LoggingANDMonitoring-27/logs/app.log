@@ -1,0 +1,73 @@
+2026-01-14 15:41:47,645 INFO  com.example.LoggingANDMonitoring_27.LoggingAndMonitoring27Application - Starting LoggingAndMonitoring27Application using Java 25 with PID 28584 (D:\AA. SpringFreamework-----\LoggingANDMonitoring-27\target\classes started by deepm in D:\AA. SpringFreamework-----\LoggingANDMonitoring-27)
+2026-01-14 15:41:47,650 INFO  com.example.LoggingANDMonitoring_27.LoggingAndMonitoring27Application - No active profile set, falling back to 1 default profile: "default"
+2026-01-14 15:41:49,512 INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-01-14 15:41:49,529 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-14 15:41:49,533 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-14 15:41:49,534 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-14 15:41:49,625 INFO  org.springframework.boot.web.context.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1889 ms
+2026-01-14 15:41:49,917 WARN  org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController' defined in file [D:\AA. SpringFreamework-----\LoggingANDMonitoring-27\target\classes\com\example\LoggingANDMonitoring_27\controller\UserController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.example.LoggingANDMonitoring_27.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-01-14 15:41:49,923 INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-01-14 15:41:49,940 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-01-14 15:41:49,963 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.LoggingANDMonitoring_27.controller.UserController required a bean of type 'com.example.LoggingANDMonitoring_27.service.UserService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.LoggingANDMonitoring_27.service.UserService' in your configuration.
+
+2026-01-14 15:42:32,474 INFO  com.example.LoggingANDMonitoring_27.LoggingAndMonitoring27Application - Starting LoggingAndMonitoring27Application using Java 25 with PID 27652 (D:\AA. SpringFreamework-----\LoggingANDMonitoring-27\target\classes started by deepm in D:\AA. SpringFreamework-----\LoggingANDMonitoring-27)
+2026-01-14 15:42:32,477 INFO  com.example.LoggingANDMonitoring_27.LoggingAndMonitoring27Application - No active profile set, falling back to 1 default profile: "default"
+2026-01-14 15:42:34,192 INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-01-14 15:42:34,210 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-14 15:42:34,213 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-14 15:42:34,213 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-14 15:42:34,311 INFO  org.springframework.boot.web.context.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1747 ms
+2026-01-14 15:42:34,590 WARN  org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController' defined in file [D:\AA. SpringFreamework-----\LoggingANDMonitoring-27\target\classes\com\example\LoggingANDMonitoring_27\controller\UserController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.example.LoggingANDMonitoring_27.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-01-14 15:42:34,595 INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-01-14 15:42:34,608 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-01-14 15:42:34,632 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.LoggingANDMonitoring_27.controller.UserController required a bean of type 'com.example.LoggingANDMonitoring_27.service.UserService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.LoggingANDMonitoring_27.service.UserService' in your configuration.
+
+2026-01-14 15:44:31,224 INFO  com.example.LoggingANDMonitoring_27.LoggingAndMonitoring27Application - Starting LoggingAndMonitoring27Application using Java 25 with PID 6580 (D:\AA. SpringFreamework-----\LoggingANDMonitoring-27\target\classes started by deepm in D:\AA. SpringFreamework-----\LoggingANDMonitoring-27)
+2026-01-14 15:44:31,228 INFO  com.example.LoggingANDMonitoring_27.LoggingAndMonitoring27Application - No active profile set, falling back to 1 default profile: "default"
+2026-01-14 15:44:32,931 INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-01-14 15:44:32,947 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-14 15:44:32,951 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-14 15:44:32,951 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-14 15:44:33,032 INFO  org.springframework.boot.web.context.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1734 ms
+2026-01-14 15:44:33,892 INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-01-14 15:44:33,960 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-14 15:44:33,984 INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-01-14 15:44:33,994 INFO  com.example.LoggingANDMonitoring_27.LoggingAndMonitoring27Application - Started LoggingAndMonitoring27Application in 3.516 seconds (process running for 4.099)
+2026-01-14 15:44:54,027 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-14 15:44:54,029 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-14 15:44:54,032 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-01-14 15:45:14,910 INFO  com.example.LoggingANDMonitoring_27.controller.UserController - Received request for user id: 5
+2026-01-14 15:45:14,912 INFO  com.example.LoggingANDMonitoring_27.service.UserService - User found successfully: 5
+2026-01-14 15:45:14,913 INFO  com.example.LoggingANDMonitoring_27.controller.UserController - Sending response for user id: 5
+2026-01-14 15:45:57,750 INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-14 15:45:57,797 INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
